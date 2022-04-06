@@ -1,0 +1,52 @@
+
+
+
+/* @media screen and (min-width: 576px) { 
+    body { 
+        background-color: black;
+    }
+ }
+
+
+@media screen and (min-width: 768px) { 
+    body { 
+        background-color: green;
+    }
+ }
+
+
+@media (min-width: 992px) {  
+    body { 
+        background-color: blue;
+    }
+}
+
+
+@media (min-width: 1200px) {  
+    body { 
+        background-color: red;
+    }
+} */
+
+@media screen and (min-width: 0px) { 
+    body { 
+        background-color: lightgreen; 
+    } 
+} 
+@media screen and (min-width: 768px) { 
+    body { 
+        background-color: yellow;
+     }
+     .content-visible{
+         display: none;
+     }
+} 
+@media screen and (min-width: 992px) { 
+    body { 
+        background-color: rgb(255, 0, 0);
+     }
+    .content-visible{
+        display: block;
+    }
+} 
+
